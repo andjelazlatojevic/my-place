@@ -1,0 +1,12 @@
+.cards-wrapper {
+  justify-content: start;
+  gap: 15px;
+}
+.card {
+  width: 24%;
+}
+@media only screen and (max-width: 700px) {
+  .card {
+    width: 100%;
+  }
+}
