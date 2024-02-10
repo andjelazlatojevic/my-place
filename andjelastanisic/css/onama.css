@@ -1,0 +1,38 @@
+.wrapper {
+  display: flex;
+  padding: 50px 20px;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.about-card {
+  width: 45%;
+  border: 2px black solid;
+  padding: 20px;
+}
+
+.about-card h1 {
+  font-size: 34px;
+}
+
+.about-card p {
+  line-height: 1.5;
+}
+
+.about-img {
+  width: 45%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .about-card {
+    width: 100%;
+  }
+  .about-img {
+    width: 100%;
+  }
+}
